@@ -41,9 +41,8 @@
             "required": "True"
         },
         "BOT_USERNAME ": {
-            "description": "Botun ad\u0131n\u0131 yaz\u0131n N\u00fcmun\u0259",
             "required": "True",
-            "value": "multietirafbot. (@ olmadan yaz\u0131n)"
+            "value": "Botun ad\u0131n\u0131 yaz\u0131n N\u00fcmun\u0259multietirafbot. (@ olmadan yaz\u0131n)"
         },
         "ITIRAF_CHANNEL ": {
             "description": "Kanal\u0131n\u0131z\u0131n ad\u0131n\u0131 qeyd edin N\u00fcmun\u0259",
