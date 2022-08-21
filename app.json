@@ -33,7 +33,7 @@
             "required": "True"
         },
         "LOG_SILINMIS ": {
-            "value": "T\u0259sdiq olunmayan etiraflar \u00fc\u00e7\u00fcn kanal a\u00e7\u0131n. Kanal\u0131n \u0130D sini buraya yaz\u0131n",
+            "description": "T\u0259sdiq olunmayan etiraflar \u00fc\u00e7\u00fcn kanal a\u00e7\u0131n. Kanal\u0131n \u0130D sini buraya yaz\u0131n",
             "required": "True"
         },
         "LOG_DATABASE ": {
@@ -94,7 +94,7 @@
             "required": "True"
         },
         "ITIRAF_SILINDI_ADMINS ": {
-            "description": "\ud83d\uddd1 Etiraf {} t\u0259r\u0259find\u0259n silindi",
+            "value": "🗑 Etiraf {} tərəfindən silindi",
             "required": "True"
         },
         "ITIRAF_KABUL_EDILMEDI ": {
