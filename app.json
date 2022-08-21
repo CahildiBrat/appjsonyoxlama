@@ -156,12 +156,14 @@
             "required": "True"
         },
         "ITIRAF_GONDERILDI_ANON ": {
+            "description": "\u2705 Etiraf biz\u0259 \u00e7atd\u0131. T\u0259sdiq olundu\u011funda kanala g\u00f6nd\u0259ril\u0259c\u0259k.\\n\\n\u0130stifad\u0259\u00e7i",
             "required": "True",
-            "value": "✅ Etiraf bizə çatdı. Təsdiq olunduğunda kanala göndəriləcək.\n\nİstifadəçi: {}\nEtiraf növü: Gizli\nEtiraf mesajı: {}"
+            "value": "{}\\nEtiraf n\u00f6v\u00fc",
+            "generator": "secret"
         },
         "ITIRAF_GONDERILDI_ADMIN_ANON ": {
-            "required": "True",
-            "value": "İstifadəçi: {}\nİstifadəçi İD:{}\n\n🔽 Kanal üçün mesaj aşağıda avtomatik yazıldı 🔽"
+            "value": "İstifadəçi: {}\nİstifadəçi İD:{}\n\n🔽 Kanal üçün mesaj aşağıda avtomatik yazıldı 🔽",
+            "required": "True"
         },
         "ITIRAF_GONDERILDI_ANON_MESAJ ": {
             "description": "\ud83d\udce3 Etiraf n\u00f6v\u00fc",
