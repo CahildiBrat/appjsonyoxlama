@@ -134,7 +134,7 @@
             "required": "True"
         },
         "ITIRAF_GONDERILDI ": {
-            "value": "\u2705 Etiraf biz\u0259 \u00e7atd\u0131. T\u0259sdiq olundu\u011funda kanala g\u00f6nd\u0259ril\u0259c\u0259k.\\n\\n\u0130stifad\u0259\u00e7i: {}\\nEtiraf n\u00f6v\u00fc",
+            "value": "✅ Etiraf bizə çatdı. Təsdiq olunduğunda kanala göndəriləcək.\n\nİstifadəçi: {}\nEtiraf növü: Açıq\nEtiraf mesajı: {}",
             "required": "True"
         },
         "ITIRAF_GONDERILDI_ADMIN_OPEN ": {
@@ -156,9 +156,8 @@
             "required": "True"
         },
         "ITIRAF_GONDERILDI_ANON ": {
-            "description": "\u2705 Etiraf biz\u0259 \u00e7atd\u0131. T\u0259sdiq olundu\u011funda kanala g\u00f6nd\u0259ril\u0259c\u0259k.\\n\\n\u0130stifad\u0259\u00e7i",
             "required": "True",
-            "value": "{}\\nEtiraf n\u00f6v\u00fc",
+            "value": "✅ Etiraf bizə çatdı. Təsdiq olunduğunda kanala göndəriləcək.\n\nİstifadəçi: {}\nEtiraf növü: Gizli\nEtiraf mesajı: {}",
             "generator": "secret"
         },
         "ITIRAF_GONDERILDI_ADMIN_ANON ": {
