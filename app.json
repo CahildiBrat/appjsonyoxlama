@@ -29,7 +29,7 @@
             "required": "True"
         },
         "ETIRAF_CHANNEL ": {
-            "description": "Etiraf kanal\u0131n\u0131z\u0131n \u0130D sini buraya yaz\u0131n",
+            "value": "Etiraf kanal\u0131n\u0131z\u0131n \u0130D sini buraya yaz\u0131n",
             "required": "True"
         },
         "LOG_SILINMIS ": {
@@ -138,9 +138,8 @@
             "required": "True"
         },
         "ITIRAF_GONDERILDI_ADMIN_OPEN ": {
-            "description": "\u0130stifad\u0259\u00e7i",
             "required": "True",
-            "value": "{}\\n\u0130stifad\u0259\u00e7i \u0130D"
+            "value": "İstifadəçi: {}\nİstifadəçi İD:{}\n\n🔽 Kanal üçün mesaj aşağıda avtomatik yazıldı 🔽"
         },
         "ITIRAF_GONDERILDI_OPEN_MESAJ ": {
             "description": "\ud83d\udce3 Etiraf n\u00f6v\u00fc",
@@ -157,15 +156,12 @@
             "required": "True"
         },
         "ITIRAF_GONDERILDI_ANON ": {
-            "description": "\u2705 Etiraf biz\u0259 \u00e7atd\u0131. T\u0259sdiq olundu\u011funda kanala g\u00f6nd\u0259ril\u0259c\u0259k.\\n\\n\u0130stifad\u0259\u00e7i",
             "required": "True",
-            "value": "{}\\nEtiraf n\u00f6v\u00fc",
-            "generator": "secret"
+            "value": "✅ Etiraf bizə çatdı. Təsdiq olunduğunda kanala göndəriləcək.\n\nİstifadəçi: {}\nEtiraf növü: Gizli\nEtiraf mesajı: {}"
         },
         "ITIRAF_GONDERILDI_ADMIN_ANON ": {
-            "description": "\u0130stifad\u0259\u00e7i: {}\\n\u0130stifad\u0259\u00e7i \u0130D",
-            "required": "True",
-            "value": "{}\\n\u0130stifad\u0259\u00e7i \u0130D"
+            "value": "İstifadəçi: {}\nİstifadəçi İD:{}\n\n🔽 Kanal üçün mesaj aşağıda avtomatik yazıldı 🔽",
+            "required": "True"
         },
         "ITIRAF_GONDERILDI_ANON_MESAJ ": {
             "description": "\ud83d\udce3 Etiraf n\u00f6v\u00fc",
