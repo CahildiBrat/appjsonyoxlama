@@ -25,7 +25,7 @@
             "required": "True"
         },
         "LOG_ADMINS ": {
-            "description": "Etiraf\u0131 d\u0259st\u0259kl\u0259y\u0259c\u0259k adamlar\u0131n oldu\u011fu qrupun \u0130D sini buraya yaz\u0131n",
+            "value": "Etiraf\u0131 d\u0259st\u0259kl\u0259y\u0259c\u0259k adamlar\u0131n oldu\u011fu qrupun \u0130D sini buraya yaz\u0131n",
             "required": "True"
         },
         "ETIRAF_CHANNEL ": {
@@ -33,11 +33,11 @@
             "required": "True"
         },
         "LOG_SILINMIS ": {
-            "description": "T\u0259sdiq olunmayan etiraflar \u00fc\u00e7\u00fcn kanal a\u00e7\u0131n. Kanal\u0131n \u0130D sini buraya yaz\u0131n",
+            "value": "T\u0259sdiq olunmayan etiraflar \u00fc\u00e7\u00fcn kanal a\u00e7\u0131n. Kanal\u0131n \u0130D sini buraya yaz\u0131n",
             "required": "True"
         },
         "LOG_DATABASE ": {
-            "description": "[LOG] {} start etdi",
+            "value": "[LOG] {} start etdi",
             "required": "True"
         },
         "BOT_USERNAME ": {
@@ -122,12 +122,11 @@
             "required": "True"
         },
         "ITIRAF_YAZ ": {
-            "description": "\ud83d\udce3 Etiraf\u0131n\u0131 yaz",
-            "required": "True",
-            "value": "\\nL\u0259\u011fv etm\u0259k \u00fc\u00e7\u00fcn cancel yaz."
+            "value": "\ud83d\udce3 Etiraf\u0131n\u0131 yaz\\nL\u0259\u011fv etm\u0259k \u00fc\u00e7\u00fcn cancel yaz.",
+            "required": "True"
         },
         "ITIRAF_YAZ_ZAMAN ": {
-            "description": "\u018fmr g\u00f6nd\u0259rm\u0259, 30 saniy\u0259 \u0259rzind\u0259 mesaj yaz.",
+            "value": "\u018fmr g\u00f6nd\u0259rm\u0259, 30 saniy\u0259 \u0259rzind\u0259 mesaj yaz.",
             "required": "True"
         },
         "ITIRAF_CANCEL ": {
