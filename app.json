@@ -70,23 +70,23 @@
             "value": "\ud83d\udc4b Salam {}\\n\u2139\ufe0f M\u0259n etiraf botuyam\\n\ud83d\udc81 A\u015fa\u011f\u0131dak\u0131 Etiraf et d\u00fcym\u0259sin\u0259 vuraraq etiraf et"
         },
         "BOT_ITIRAF_BUTTON_1 ": {
-            "description": "Etiraf et",
-            "required": "True"
+            "required": "True",
+            "value": "Etiraf et"
         },
         "BOT_ITIRAF_BUTTON_2 ": {
-            "description": "\ud83d\udce3 G\u00fcnc\u0259ll\u0259m\u0259 Kanal\u0131m\u0131z",
-            "required": "True"
+            "required": "True",
+            "value": "\ud83d\udce3 G\u00fcnc\u0259ll\u0259m\u0259 Kanal\u0131m\u0131z"
         },
         "BOT_ITIRAF_BUTTON_3 ": {
-            "description": "\ud83d\udce3 Etiraf Kanal\u0131m\u0131z",
+            "value": "\ud83d\udce3 Etiraf Kanal\u0131m\u0131z",
             "required": "True"
         },
         "BUTTON_OPEN ": {
-            "description": "A\u00e7\u0131q etiraf",
+            "value": "A\u00e7\u0131q etiraf",
             "required": "True"
         },
         "BUTTON_ANON ": {
-            "description": "Gizli Etiraf",
+            "value": "Gizli Etiraf",
             "required": "True"
         },
         "ITIRAF_SILINDI ": {
@@ -102,15 +102,15 @@
             "required": "True"
         },
         "ITIRAF_CHOOSE ": {
-            "description": "\ud83d\udc81 Nec\u0259 etiraf ed\u0259c\u0259ks\u0259n?",
+            "value": "\ud83d\udc81 Nec\u0259 etiraf ed\u0259c\u0259ks\u0259n?",
             "required": "True"
         },
         "ITIRAF_CHANNEL_TEXT ": {
-            "description": "\ud83d\udce3 Etiraf Kanal\u0131m\u0131z",
+            "value": "\ud83d\udce3 Etiraf Kanal\u0131m\u0131z",
             "required": "True"
         },
         "ITIRAF_ACCEPT ": {
-            "description": "\u2705 Etiraf kanal\u0131na g\u00f6nd\u0259rildi",
+            "value": "\u2705 Etiraf kanal\u0131na g\u00f6nd\u0259rildi",
             "required": "True"
         },
         "ITIRAF_OPEN_ACCEPT ": {
@@ -118,7 +118,7 @@
             "required": "True"
         },
         "ITIRAF_CHANNEL_TEXT_BUTTON ": {
-            "description": "\ud83d\udcad S\u0259nd\u0259 \u00f6z etiraf\u0131n\u0131 yaz",
+            "value": "\ud83d\udcad S\u0259nd\u0259 \u00f6z etiraf\u0131n\u0131 yaz",
             "required": "True"
         },
         "ITIRAF_YAZ ": {
@@ -131,14 +131,12 @@
             "required": "True"
         },
         "ITIRAF_CANCEL ": {
-            "description": "Etiraf l\u0259\u011fv oldundu.",
+            "value": "Etiraf l\u0259\u011fv oldundu.",
             "required": "True"
         },
         "ITIRAF_GONDERILDI ": {
-            "description": "\u2705 Etiraf biz\u0259 \u00e7atd\u0131. T\u0259sdiq olundu\u011funda kanala g\u00f6nd\u0259ril\u0259c\u0259k.\\n\\n\u0130stifad\u0259\u00e7i",
-            "required": "True",
-            "value": "{}\\nEtiraf n\u00f6v\u00fc",
-            "generator": "secret"
+            "value": "\u2705 Etiraf biz\u0259 \u00e7atd\u0131. T\u0259sdiq olundu\u011funda kanala g\u00f6nd\u0259ril\u0259c\u0259k.\\n\\n\u0130stifad\u0259\u00e7i: {}\\nEtiraf n\u00f6v\u00fc",
+            "required": "True"
         },
         "ITIRAF_GONDERILDI_ADMIN_OPEN ": {
             "description": "\u0130stifad\u0259\u00e7i",
@@ -152,7 +150,7 @@
             "generator": "secret"
         },
         "ITIRAF_GONDER ": {
-            "description": "\u2705 T\u0259sdiql\u0259",
+            "value": "\u2705 T\u0259sdiql\u0259",
             "required": "True"
         },
         "ITIRAF_SIL ": {
@@ -166,7 +164,7 @@
             "generator": "secret"
         },
         "ITIRAF_GONDERILDI_ADMIN_ANON ": {
-            "description": "\u0130stifad\u0259\u00e7i",
+            "description": "\u0130stifad\u0259\u00e7i: {}\\n\u0130stifad\u0259\u00e7i \u0130D",
             "required": "True",
             "value": "{}\\n\u0130stifad\u0259\u00e7i \u0130D"
         },
