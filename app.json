@@ -42,33 +42,32 @@
         },
         "BOT_USERNAME ": {
             "required": "True",
-            "value": "Botun ad\u0131n\u0131 yaz\u0131n N\u00fcmun\u0259multietirafbot. (@ olmadan yaz\u0131n)"
+            "value": "Botun ad\u0131n\u0131 yaz\u0131n N\u00fcmun\u0259: multietirafbot. (@ olmadan yaz\u0131n)"
         },
         "ITIRAF_CHANNEL ": {
-            "description": "Kanal\u0131n\u0131z\u0131n ad\u0131n\u0131 qeyd edin N\u00fcmun\u0259",
             "required": "True",
-            "value": "MultiEtiraf (@ olmadan)"
+            "value": "Kanal\u0131n\u0131z\u0131n ad\u0131n\u0131 qeyd edin N\u00fcmun\u0259: MultiEtiraf (@ olmadan)"
         },
         "ITIRAF_UPDATE_CHANNEL ": {
-            "description": "R\u0259smi g\u00fcnc\u0259ll\u0259m\u0259 kanal\u0131n\u0131z\u0131 qeyd edin. N\u00fcmun\u0259",
             "required": "True",
-            "value": "MultiAzOfficial (@ olmadan)"
+            "value": "R\u0259smi g\u00fcnc\u0259ll\u0259m\u0259 kanal\u0131n\u0131z\u0131 qeyd edin. N\u00fcmun\u0259"
         },
-        "START_GIF =  START ED\u018fRK\u018fN G\u018fL\u018fN G\u0130F LINKI": {
+        "START_GIF": {
             "description": "",
-            "required": "True"
+            "required": "True",
+            "value": "START ED\u018fRK\u018fN G\u018fL\u018fN G\u0130F LINKI"
         },
-        "ETIRAF_GIF ": {
-            "description": "Etiraf et d\u00fcym\u0259sin\u0259 vurduqda g\u0259l\u0259n G\u0130F",
-            "required": "True"
+        "ETIRAF_GIF": {
+            "required": "True",
+            "value": "Etiraf et d\u00fcym\u0259sin\u0259 vurduqda g\u0259l\u0259n G\u0130F"
         },
         "ETIRAF_GOZLEME ": {
-            "description": "Etiraf\u0131n\u0131z\u0131 qeyd edin yaz\u0131s\u0131 g\u0259l\u0259nd\u0259 g\u0259l\u0259n G\u0130F",
-            "required": "True"
+            "required": "True",
+            "value": "Etiraf\u0131n\u0131z\u0131 qeyd edin yaz\u0131s\u0131 g\u0259l\u0259nd\u0259 g\u0259l\u0259n G\u0130F"
         },
         "BOT_START ": {
-            "description": "\ud83d\udc4b Salam {}\\n\u2139\ufe0f M\u0259n etiraf botuyam\\n\ud83d\udc81 A\u015fa\u011f\u0131dak\u0131 Etiraf et d\u00fcym\u0259sin\u0259 vuraraq etiraf et",
-            "required": "True"
+            "required": "True",
+            "value": "\ud83d\udc4b Salam {}\\n\u2139\ufe0f M\u0259n etiraf botuyam\\n\ud83d\udc81 A\u015fa\u011f\u0131dak\u0131 Etiraf et d\u00fcym\u0259sin\u0259 vuraraq etiraf et"
         },
         "BOT_ITIRAF_BUTTON_1 ": {
             "description": "Etiraf et",
