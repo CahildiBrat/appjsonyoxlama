@@ -1,0 +1,189 @@
+{
+    "name": "Etiraf Bot",
+    "description": "T.me/MultiAzOfficial t\u0259r\u0259find\u0259n yarad\u0131lm\u0131\u015f ilk pyrogram kitabxanal\u0131 etiraf botu",
+    "keywords": [
+        "pyrogram",
+        "pyromod"
+    ],
+    "repository": "https://github.com/MultiAzProject/MultiEtirafBot",
+    "website": "https://T.me/MultiAzOfficial",
+    "env": {
+        "API_ID ": {
+            "description": "My.telegram.org dan al\u0131n",
+            "required": "True"
+        },
+        "API_HASH ": {
+            "description": "My.telegram.org dan al\u0131n",
+            "required": "True"
+        },
+        "BOT_TOKEN ": {
+            "description": " @Botfather d\u0259n al\u0131n",
+            "required": "True"
+        },
+        "OWNER ": {
+            "description": "@MissRose_bot gedin v\u0259 /id yaz\u0131n. Veril\u0259n d\u0259y\u0259ri bura qeyd edin",
+            "required": "True"
+        },
+        "LOG_ADMINS ": {
+            "description": "Etiraf\u0131 d\u0259st\u0259kl\u0259y\u0259c\u0259k adamlar\u0131n oldu\u011fu qrupun \u0130D sini buraya yaz\u0131n",
+            "required": "True"
+        },
+        "ETIRAF_CHANNEL ": {
+            "description": "Etiraf kanal\u0131n\u0131z\u0131n \u0130D sini buraya yaz\u0131n",
+            "required": "True"
+        },
+        "LOG_SILINMIS ": {
+            "description": "T\u0259sdiq olunmayan etiraflar \u00fc\u00e7\u00fcn kanal a\u00e7\u0131n. Kanal\u0131n \u0130D sini buraya yaz\u0131n",
+            "required": "True"
+        },
+        "LOG_DATABASE ": {
+            "description": "[LOG] {} start etdi",
+            "required": "True"
+        },
+        "BOT_USERNAME ": {
+            "description": "Botun ad\u0131n\u0131 yaz\u0131n N\u00fcmun\u0259",
+            "required": "True",
+            "value": "multietirafbot. (@ olmadan yaz\u0131n)"
+        },
+        "ITIRAF_CHANNEL ": {
+            "description": "Kanal\u0131n\u0131z\u0131n ad\u0131n\u0131 qeyd edin N\u00fcmun\u0259",
+            "required": "True",
+            "value": "MultiEtiraf (@ olmadan)"
+        },
+        "ITIRAF_UPDATE_CHANNEL ": {
+            "description": "R\u0259smi g\u00fcnc\u0259ll\u0259m\u0259 kanal\u0131n\u0131z\u0131 qeyd edin. N\u00fcmun\u0259",
+            "required": "True",
+            "value": "MultiAzOfficial (@ olmadan)"
+        },
+        "START_GIF =  START ED\u018fRK\u018fN G\u018fL\u018fN G\u0130F LINKI": {
+            "description": "",
+            "required": "True"
+        },
+        "ETIRAF_GIF ": {
+            "description": "Etiraf et d\u00fcym\u0259sin\u0259 vurduqda g\u0259l\u0259n G\u0130F",
+            "required": "True"
+        },
+        "ETIRAF_GOZLEME ": {
+            "description": "Etiraf\u0131n\u0131z\u0131 qeyd edin yaz\u0131s\u0131 g\u0259l\u0259nd\u0259 g\u0259l\u0259n G\u0130F",
+            "required": "True"
+        },
+        "BOT_START ": {
+            "description": "\ud83d\udc4b Salam {}\\n\u2139\ufe0f M\u0259n etiraf botuyam\\n\ud83d\udc81 A\u015fa\u011f\u0131dak\u0131 Etiraf et d\u00fcym\u0259sin\u0259 vuraraq etiraf et",
+            "required": "True"
+        },
+        "BOT_ITIRAF_BUTTON_1 ": {
+            "description": "Etiraf et",
+            "required": "True"
+        },
+        "BOT_ITIRAF_BUTTON_2 ": {
+            "description": "\ud83d\udce3 G\u00fcnc\u0259ll\u0259m\u0259 Kanal\u0131m\u0131z",
+            "required": "True"
+        },
+        "BOT_ITIRAF_BUTTON_3 ": {
+            "description": "\ud83d\udce3 Etiraf Kanal\u0131m\u0131z",
+            "required": "True"
+        },
+        "BUTTON_OPEN ": {
+            "description": "A\u00e7\u0131q etiraf",
+            "required": "True"
+        },
+        "BUTTON_ANON ": {
+            "description": "Gizli Etiraf",
+            "required": "True"
+        },
+        "ITIRAF_SILINDI ": {
+            "description": "\ud83d\udd3d A\u015fa\u011f\u0131dak\u0131 Etiraf {} t\u0259r\u0259find\u0259n silindi \ud83d\udd3d",
+            "required": "True"
+        },
+        "ITIRAF_SILINDI_ADMINS ": {
+            "description": "\ud83d\uddd1 Etiraf {} t\u0259r\u0259find\u0259n silindi",
+            "required": "True"
+        },
+        "ITIRAF_KABUL_EDILMEDI ": {
+            "description": "\ud83d\udd14 S\u0259nin etiraf\u0131n q\u0259bul olunmad\u0131.",
+            "required": "True"
+        },
+        "ITIRAF_CHOOSE ": {
+            "description": "\ud83d\udc81 Nec\u0259 etiraf ed\u0259c\u0259ks\u0259n?",
+            "required": "True"
+        },
+        "ITIRAF_CHANNEL_TEXT ": {
+            "description": "\ud83d\udce3 Etiraf Kanal\u0131m\u0131z",
+            "required": "True"
+        },
+        "ITIRAF_ACCEPT ": {
+            "description": "\u2705 Etiraf kanal\u0131na g\u00f6nd\u0259rildi",
+            "required": "True"
+        },
+        "ITIRAF_OPEN_ACCEPT ": {
+            "description": "\ud83d\udd14 S\u0259nin etiraf\u0131n q\u0259bul olundu.",
+            "required": "True"
+        },
+        "ITIRAF_CHANNEL_TEXT_BUTTON ": {
+            "description": "\ud83d\udcad S\u0259nd\u0259 \u00f6z etiraf\u0131n\u0131 yaz",
+            "required": "True"
+        },
+        "ITIRAF_YAZ ": {
+            "description": "\ud83d\udce3 Etiraf\u0131n\u0131 yaz",
+            "required": "True",
+            "value": "\\nL\u0259\u011fv etm\u0259k \u00fc\u00e7\u00fcn cancel yaz."
+        },
+        "ITIRAF_YAZ_ZAMAN ": {
+            "description": "\u018fmr g\u00f6nd\u0259rm\u0259, 30 saniy\u0259 \u0259rzind\u0259 mesaj yaz.",
+            "required": "True"
+        },
+        "ITIRAF_CANCEL ": {
+            "description": "Etiraf l\u0259\u011fv oldundu.",
+            "required": "True"
+        },
+        "ITIRAF_GONDERILDI ": {
+            "description": "\u2705 Etiraf biz\u0259 \u00e7atd\u0131. T\u0259sdiq olundu\u011funda kanala g\u00f6nd\u0259ril\u0259c\u0259k.\\n\\n\u0130stifad\u0259\u00e7i",
+            "required": "True",
+            "value": "{}\\nEtiraf n\u00f6v\u00fc",
+            "generator": "secret"
+        },
+        "ITIRAF_GONDERILDI_ADMIN_OPEN ": {
+            "description": "\u0130stifad\u0259\u00e7i",
+            "required": "True",
+            "value": "{}\\n\u0130stifad\u0259\u00e7i \u0130D"
+        },
+        "ITIRAF_GONDERILDI_OPEN_MESAJ ": {
+            "description": "\ud83d\udce3 Etiraf n\u00f6v\u00fc",
+            "required": "True",
+            "value": "A\u00e7\u0131q\\n\ud83d\udd75\ufe0f Etiraf ed\u0259n",
+            "generator": "secret"
+        },
+        "ITIRAF_GONDER ": {
+            "description": "\u2705 T\u0259sdiql\u0259",
+            "required": "True"
+        },
+        "ITIRAF_SIL ": {
+            "description": "\ud83d\uddd1 Sil",
+            "required": "True"
+        },
+        "ITIRAF_GONDERILDI_ANON ": {
+            "description": "\u2705 Etiraf biz\u0259 \u00e7atd\u0131. T\u0259sdiq olundu\u011funda kanala g\u00f6nd\u0259ril\u0259c\u0259k.\\n\\n\u0130stifad\u0259\u00e7i",
+            "required": "True",
+            "value": "{}\\nEtiraf n\u00f6v\u00fc",
+            "generator": "secret"
+        },
+        "ITIRAF_GONDERILDI_ADMIN_ANON ": {
+            "description": "\u0130stifad\u0259\u00e7i",
+            "required": "True",
+            "value": "{}\\n\u0130stifad\u0259\u00e7i \u0130D"
+        },
+        "ITIRAF_GONDERILDI_ANON_MESAJ ": {
+            "description": "\ud83d\udce3 Etiraf n\u00f6v\u00fc",
+            "required": "True",
+            "value": "Gizli\\n\ud83d\udd75\ufe0f \u0130stifad\u0259\u00e7i",
+            "generator": "secret"
+        }
+    },
+    "stack": "heroku-20",
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
