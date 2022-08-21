@@ -161,7 +161,7 @@
             "generator": "secret"
         },
         "ITIRAF_GONDERILDI_ADMIN_ANON ": {
-            "value": "İstifadəçi: {}\nİstifadəçi İD:{}\n\n🔽 Kanal üçün mesaj aşağıda avtomatik yazıldı 🔽",
+            "value": "İstifadəçi: {}\\nİstifadəçi İD:{}\\n\\n🔽 Kanal üçün mesaj aşağıda avtomatik yazıldı 🔽",
             "required": "True"
         },
         "ITIRAF_GONDERILDI_ANON_MESAJ ": {
