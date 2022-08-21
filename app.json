@@ -53,17 +53,16 @@
             "value": "R\u0259smi g\u00fcnc\u0259ll\u0259m\u0259 kanal\u0131n\u0131z\u0131 qeyd edin. N\u00fcmun\u0259"
         },
         "START_GIF": {
-            "description": "",
-            "required": "True",
-            "value": "START ED\u018fRK\u018fN G\u018fL\u018fN G\u0130F LINKI"
+            "description": "START ED\u018fRK\u018fN G\u018fL\u018fN G\u0130F LINKI",
+            "required": "True"
         },
         "ETIRAF_GIF": {
             "required": "True",
-            "value": "Etiraf et d\u00fcym\u0259sin\u0259 vurduqda g\u0259l\u0259n G\u0130F"
+            "description": "Etiraf et d\u00fcym\u0259sin\u0259 vurduqda g\u0259l\u0259n G\u0130F"
         },
         "ETIRAF_GOZLEME ": {
             "required": "True",
-            "value": "Etiraf\u0131n\u0131z\u0131 qeyd edin yaz\u0131s\u0131 g\u0259l\u0259nd\u0259 g\u0259l\u0259n G\u0130F"
+            "description": "Etiraf\u0131n\u0131z\u0131 qeyd edin yaz\u0131s\u0131 g\u0259l\u0259nd\u0259 g\u0259l\u0259n G\u0130F"
         },
         "BOT_START ": {
             "required": "True",
