@@ -155,7 +155,7 @@
         },
         "ITIRAF_GONDERILDI_ANON ": {
             "required": "True",
-            "value": "✅ Etiraf bizə çatdı. Təsdiq olunduğunda kanala göndəriləcək.\n\nİstifadəçi: {}\nEtiraf növü: Gizli\nEtiraf mesajı: {}",
+            "value": "✅ Etiraf bizə çatdı. Təsdiq olunduğunda kanala göndəriləcək.\\n\\nİstifadəçi: {}\\nEtiraf növü: Gizli\\nEtiraf mesajı: {}",
             "generator": "secret"
         },
         "ITIRAF_GONDERILDI_ADMIN_ANON ": {
